@@ -1,6 +1,6 @@
 [submodule "source"]
 	path = source
-	url = git@github.com:viadjo/viadjo-content.git
+	url = https://github.com/viadjo/viadjo-content.git
 [submodule "brand"]
 	path = brand
-	url = git@github.com:viadjo/viadjo-brand-kit.git
+	url = https://github.com/viadjo/viadjo-brand-kit.git
