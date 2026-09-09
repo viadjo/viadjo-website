@@ -420,6 +420,7 @@ function buildTipPage(tip, lang, siteData, components) {
     const data = {
         ...siteData,
         baseUrl: '',
+        logoHref: '../index.html',
         assetPrefix,
         subpage: true,
         title: tip.title,
@@ -535,6 +536,7 @@ function buildPage(pageFile, lang, siteData, components) {
     const data = {
         ...siteData,
         baseUrl,
+        logoHref: `${baseUrl}index.html`,
         assetPrefix,
         subpage: isSubpage,
         title: pageTitle,
